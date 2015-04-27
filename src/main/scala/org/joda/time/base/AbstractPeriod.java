@@ -223,7 +223,7 @@ public abstract class AbstractPeriod implements ReadablePeriod {
      *
      * @return the value as an ISO8601 string
      */
-    @ToString
+    /*@ToString*/
     public String toString() {
         return ISOPeriodFormat.standard().print(this);
     }

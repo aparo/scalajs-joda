@@ -309,7 +309,7 @@ public abstract class AbstractDateTime
      * 
      * @return ISO8601 time formatted string, not null
      */
-    @ToString
+    /*@ToString*/
     public String toString() {
         return super.toString();
     }

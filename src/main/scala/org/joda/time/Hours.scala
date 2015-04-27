@@ -468,7 +468,7 @@ final class Hours extends BaseSingleFieldPeriod {
    *
    * @return the value as an ISO8601 string
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return "PT" + String.valueOf(getValue) + "H"
   }
 }

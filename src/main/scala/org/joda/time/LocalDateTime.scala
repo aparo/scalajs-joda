@@ -2276,7 +2276,7 @@ final class LocalDateTime extends BaseLocal with ReadablePartial with Serializab
    *
    * @return ISO8601 time formatted string.
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return ISODateTimeFormat.dateTime.print(this)
   }
 

@@ -927,7 +927,7 @@ final class MonthDay extends BasePartial with ReadablePartial with Serializable 
    *
    * @return ISO8601 time formatted string.
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     val fields: List[DateTimeFieldType] = new ArrayList[DateTimeFieldType]
     fields.add(DateTimeFieldType.monthOfYear)
     fields.add(DateTimeFieldType.dayOfMonth)

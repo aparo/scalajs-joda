@@ -419,7 +419,7 @@ public abstract class AbstractInstant implements ReadableInstant {
      * 
      * @return ISO8601 time formatted string, not null
      */
-    @ToString
+    /*@ToString*/
     public String toString() {
         return ISODateTimeFormat.dateTime().print(this);
     }

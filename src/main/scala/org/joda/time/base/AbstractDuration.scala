@@ -177,7 +177,7 @@ abstract class AbstractDuration extends ReadableDuration {
    *
    * @return the value as an ISO8601 string
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     val millis: Long = getMillis
     val buf: StringBuffer = new StringBuffer
     buf.append("PT")

@@ -469,7 +469,7 @@ final class Days extends BaseSingleFieldPeriod {
    *
    * @return the value as an ISO8601 string
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return "P" + String.valueOf(getValue) + "D"
   }
 }

@@ -2040,7 +2040,7 @@ final class LocalDate extends BaseLocal with ReadablePartial with Serializable {
    *
    * @return ISO8601 time formatted string.
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return ISODateTimeFormat.date.print(this)
   }
 

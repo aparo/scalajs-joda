@@ -397,7 +397,7 @@ abstract class AbstractInstant extends ReadableInstant {
    *
    * @return ISO8601 time formatted string, not null
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return ISODateTimeFormat.dateTime.print(this)
   }
 

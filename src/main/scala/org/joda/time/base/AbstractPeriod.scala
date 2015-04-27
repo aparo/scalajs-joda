@@ -252,7 +252,7 @@ abstract class AbstractPeriod extends ReadablePeriod {
    *
    * @return the value as an ISO8601 string
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return ISOPeriodFormat.standard.print(this)
   }
 

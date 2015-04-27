@@ -946,7 +946,7 @@ final class YearMonth extends BasePartial with ReadablePartial with Serializable
    *
    * @return ISO8601 time formatted string.
    */
-  @ToString override def toString: String = {
+  /*@ToString*/ override def toString: String = {
     return ISODateTimeFormat.yearMonth.print(this)
   }
 
